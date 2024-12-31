@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#big-div {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.row {
+    height: 60vh;
+}
+
+body {
+    background-image: url("../images/login-background-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.small-div {
+    background-image: url("../images/login-background-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+    font-weight: 200;
+}
+
+.small-div-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.button-1 {
+    width: 40%;
+}

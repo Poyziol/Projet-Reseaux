@@ -1,0 +1,78 @@
+/* Réinitialisation des marges et paddings */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Styles pour le header */
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 4px 8px 0px rgba(31, 41, 42, 0.264);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+header #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 10%;
+}
+
+header #navbar #nav-image img {
+    max-height: 80px;
+}
+
+header #navbar #nav-list ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+header #navbar #nav-list ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+header #navbar #nav-list ul li a:hover {
+    color: #007BFF;
+}
+
+/* Footer */
+footer {
+    background-color: hsla(0, 14%, 95%, 0.767);
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer #footbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer #footbar div {
+    margin: 10px;
+    text-align: center;
+}
+
+footer #footbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer #footbar li {
+    margin: 5px 0;
+}
